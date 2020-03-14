@@ -1,0 +1,16 @@
+{
+    "name": "crawler-zhihu",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/xiaohp/crawler-zhihu.git",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "node index.js",
+        "test": "node src/test.js"
+    },
+    "dependencies": {
+        "parseurl": "^1.3.3",
+        "puppeteer": "^2.1.1"
+    }
+}
